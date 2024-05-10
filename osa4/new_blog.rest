@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFIQUhBQUFBQUEiLCJpZCI6IjY2M2M1ODcxMGM3MmRkMTg0YTk4ODQ0NSIsImlhdCI6MTcxNTIzMjk0Mn0.tDTIIbIAURw4bx0KoQ_5N0rJj1F4_5JYYk2nVapvcQc
+
+{
+ "title": "testi123",
+    "author": "Matti Luukkainen",
+    "url": "2google.com",
+    "likes": 6
+}
